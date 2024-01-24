@@ -1,0 +1,39 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 980,
+      "width": 1900
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CLIT_checksheet_1"
+        },
+        "position": {
+          "size": "large"
+        },
+        "props": {
+          "path": "Digital_Checksheets/Screens/CLIT_checksheet_1"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "CLIT_checksheet_small"
+        },
+        "props": {
+          "path": "Digital_Checksheets/Screens/Small_CLIT_Checksheet"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.breakpt"
+  }
+}
